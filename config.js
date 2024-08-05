@@ -40,18 +40,18 @@ global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s' //Grupo Oficial De Goku
-global.gp2 = 'https://chat.whatsapp.com/KQA5YEnMMhE9PQODSh6I7B' //Grupo Oficial De Goku 2 
-global.gp3 = 'https://chat.whatsapp.com/FOS2BU04peN3cQaiDmLq0j' //KiraBot Y Goku
-global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //NilouBot Y Goku 𝗙𝗔𝗟𝗧𝗔
-global.comunidad1 = 'https://chat.whatsapp.com/KjdhZK4SpUm31errurbEC2' //Comunidad Goku
-global.comunidad2 = 'https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj' //Comunidad de Moonligth
-global.channel = 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e' //Canal Oficial
-global.channel2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S' //Canal MoonLight Team 
-global.yt = 'https://www.youtube.com/@Jostin207Oficialmanito' //Canal De Youtube
-global.md = 'https://github.com/Jostin207/GokuBot-MD' //Github Oficial
-global.fb = 'https://www.facebook.com/Jostin_oficial' //Facebook Del Propietario
-global.tiktok = 'https://tiktok.com/@theGokuBot' //Cuenta tiktok
+global.gp1 = '' //Grupo Oficial De Goku
+global.gp2 = '' //Grupo Oficial De Goku 2 
+global.gp3 = '' //KiraBot Y Goku
+global.gp4 = '' //NilouBot Y Goku 𝗙𝗔𝗟𝗧𝗔
+global.comunidad1 = '' //Comunidad Goku
+global.comunidad2 = '' //Comunidad de Moonligth
+global.channel = 'https://whatsapp.com/channel/0029VaYh3Zm4dTnQKQ3VLT0h' //Canal Oficial
+global.channel2 = '' //Canal MoonLight Team 
+global.yt = '' //Canal De Youtube
+global.md = '' //Github Oficial
+global.fb = '' //Facebook Del Propietario
+global.tiktok = '' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
