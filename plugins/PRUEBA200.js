@@ -1,7 +1,11 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
+import fetch from 'node-fetch'
+
+let handler  = async (m, { conn, usedPrefix, command }) => {
 let img = await (await fetch(`
 https://telegra.ph/file/a17eb7c663bf13fa84c1f.jpg
 `)).buffer()
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
 let txt = `PARA LOS QUE QUIERAN PATROCINARNOS EN SUS PROYECTOS
 
 *✨ HOLA BIENVENIDO/A TE PRESENTO OLYMPUS-HOST*
@@ -10,7 +14,7 @@ let txt = `PARA LOS QUE QUIERAN PATROCINARNOS EN SUS PROYECTOS
 _PLATAFORMA DONDE PUEDES ALOJAR MÚLTIPLES PROYECTOS A LARGO ALCANZE CON MUCHOS IDIOMAS Y CUSTOMIZADO_
 
 *¿QUE VENTAJAS TIENE Y QUE DIFERENCIA DE OTROS HOTS?*
-_LA DIFERENCIA ES QUE LA MAYORIA DE HOST MANTIENEN SOLO LOS LENGUAJES DE PROGRAMACION HABITUALES COMO "JAVASCRIPT" - "HTML" - "PYTHON" ADEMAS DE QUE ESTOS PUEDEN COSTAR UN CIERTO COSTO /O ALCANCE ADEMAS DE QUE NO PUEDES ALOJAR TANTOS DEBIDO A ALGUNA LIMITACIÓN O SU DEBIDO DINERO._
+_LA DIFERENCIA ES QUE LA MAYORIA DE HOST MANTIENEN SOLO LOS LENGUAJES DE PROGRAMACION HABITUALES COMO "JAVASCRIPT" - "HTML" - "PYTHON" ADEMAS DE QUE ESTOS PUEDEN COSTAR UN CIERTO COSTO Y/O ALCANCE ADEMAS DE QUE NO PUEDES ALOJAR TANTOS DEBIDO A ALGUNA LIMITACIÓN O SU DEBIDO DINERO._
 
 _OLYMPUS-HOST ES UN LUGAR GRATUITO DONDE TAMBIÉN ADEMAS DE QUE TENGAS UNA CUENTA, PUEDES CONECTAR TUS PROYECTOS PRIVADOS/PUBLICOS DE GITHUB, AMPLIO SISTEMA DE SOPORTE Y CUSTOMIZACION_
 
@@ -61,21 +65,9 @@ https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J
 
 📱 *Contacto*
 wa.me/595972157130`
-await conn.sendMessage(m.chat, { text: txt,
-contextInfo:{
-forwardingScore: 9999999,
-isForwarded: false, 
-"externalAdReply": {
-"showAdAttribution": true,
-"containsAutoReply": true,
-title: `✨ OLYMPUS-HOST ✨`,
-body: `✔️ Servidor de Calidad`,
-"previewType": "PHOTO",
-thumbnailUrl: '', 
-sourceUrl: 'https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J'}}},
-{ quoted: fkontak})
+await conn.sendFile(m.chat, img, "Thumbnail.jpg", txt, m, null, rcanal)
 }
-handler.tags =['info'] 
-handler.help = ['olympus', 'host', 'Obte'] 
-handler.command = /^(olympus|servidor|Hostt|server)$/i
+handler.help = ['olympus']
+handler.tags = ['info']
+handler.command = /^(server)$/i
 export default handler
