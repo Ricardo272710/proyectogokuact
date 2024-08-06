@@ -1,12 +1,7 @@
-import fetch from 'node-fetch'
-
-let handler  = async (m, { conn, usedPrefix, command }) => {
+let handler = async (m, { conn, command, usedPrefix }) => {
 let img = await (await fetch(`
 https://telegra.ph/file/a17eb7c663bf13fa84c1f.jpg
 `)).buffer()
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `PARA LOS QUE QUIERAN PATROCINARNOS EN SUS PROYECTOS
 
 *✨ HOLA BIENVENIDO/A TE PRESENTO OLYMPUS-HOST*
@@ -76,7 +71,7 @@ isForwarded: false,
 title: `✨ OLYMPUS-HOST ✨`,
 body: `✔️ Servidor de Calidad`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://telegra.ph/file/a17eb7c663bf13fa84c1f.jpg', 
+thumbnailUrl: '', 
 sourceUrl: 'https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J'}}},
 { quoted: fkontak})
 }
