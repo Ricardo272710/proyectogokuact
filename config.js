@@ -30,7 +30,7 @@ global.titulowm = 'Goku-Black-Bot-MD 🍟'
 global.titulowm2 = 'Ivan'
 global.igfg = '𝘐𝘷𝘢𝘯'
 global.botname = 'ɢᴏᴋᴜ 𝙱𝚕𝚊𝚌𝚔 Bᴏᴛ - MD 🚩'
-global.dev = '👑 Developed By • ✨ Jostin'
+global.dev = '👑 Developed By • ✨ Ivan'
 global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗹𝗮𝗰𝗸𝗕𝗼𝘁 : 𝗜𝘃𝗮𝗻 🚩'
 global.vs = '2.0.2'
 
