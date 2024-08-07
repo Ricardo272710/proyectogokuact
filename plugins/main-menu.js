@@ -23,7 +23,7 @@ let tags = {
   'info': 'Información 🐢',
   'nsfw': 'Nsfw 🔞', 
   'owner': 'Creador 👑', 
-  'mods': 'Staff 𝖦𝗈𝗄𝗎 🌹',
+  'mods': 'Staff 𝖦𝗈𝗄𝗎Black 🌹',
   'audio': 'Audios 🔉', 
   'ai': 'Ai 🌹',
   'transformador': 'Convertidores 🚩',
@@ -32,7 +32,7 @@ let tags = {
 const defaultMenu = {
   before: `*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
-“ Hola *%name*, mi nombre es *𝖦𝗈𝗄𝗎Bot*, Cómo se encuentra el día de hoy?  ”
+“ Hola *%name*, mi nombre es *𝖦𝗈𝗄𝗎BlackBot*, Cómo se encuentra el día de hoy?  ”
 
 *╭──⬣「 Info User 」⬣*
 *│* ✰ 💌 *Cliente:* %name
@@ -43,7 +43,7 @@ const defaultMenu = {
 *╰──⬣*
 
 *╭──⬣「 Info Bot 」⬣*
-*│* ✰ 🌹 *Bot:* 𝖦𝗈𝗄𝗎 Bot - MD 
+*│* ✰ 🌹 *Bot:* 𝖦𝗈𝗄𝗎 Black Bot - MD 
 *│* ✰ 💖 *Modo* Público
 *│* ✰ 📚 *Baileys:* Multi Device
 *│* ✰ 🕒 *Tiempo Activo:* %muptime
