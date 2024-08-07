@@ -311,7 +311,7 @@ console.log(chalk.bold.greenBright(`🚩 GokuBot se ha conectado correctamente.`
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`🍭 Error al iniciar GokuBot: `, error))
+console.error(chalk.bold.cyanBright(`🍭 Error al iniciar GokuBlackBot: `, error))
 }
 })();
 
