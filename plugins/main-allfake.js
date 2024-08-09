@@ -32,10 +32,10 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/593939005387'
+global.creador = 'Wa.me/595972157130'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/593978663361'
-global.namechannel = '🚩 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
+global.asistencia = 'Wa.me/595972157130'
+global.namechannel = '🚩 𝗚𝗼𝗸𝘂 Black 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
 global.namechannel2 = '𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁 - 𝗧𝗲𝗮𝗺'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗚𝗼𝗸𝘂𝗕𝗼𝘁'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁'
@@ -47,7 +47,7 @@ global.rwait = '🕒'
 global.done = '✅'
 global.error = '✖️'
 
-//Emojis determinado de GokuBot
+//Emojis determinado de GokuBlackBot
 global.emoji = '🌹'
 global.emoji2 = '🌻'
 global.emoji3 = '✨️'
@@ -99,7 +99,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363276986902836@newsletter', newsletterName: "Goku-Black-Bot-MD Channel ✨", serverMessageId: -1 }
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363276986902836@newsletter', newsletterName: "Goku-Black-Bot-MD✨", serverMessageId: -1 }
 }}, { quoted: m }}
 
 export default handler
