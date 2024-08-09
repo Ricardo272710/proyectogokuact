@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let goku = `╭─⬣「 *Info De Goku* 」⬣\n`
+let goku = `╭─⬣「 *Info De GokuBlack* 」⬣\n`
 goku += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 goku += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 goku += `│ 📦 *Total Plugins* : ${totalf}\n`
