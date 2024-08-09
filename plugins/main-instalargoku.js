@@ -51,7 +51,7 @@ conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/35384f70f429a9c4
 }
 handler.help = ['instalargokublack']
 handler.tags = ['main']
-handler.command = /^(instalargoku|instalarbot)/i
+handler.command = /^(instalargokublack|instalarbot)/i
 
 export default handler
 
