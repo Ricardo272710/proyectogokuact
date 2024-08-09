@@ -19,14 +19,14 @@
 
 "homepage": "https://github.com/elias1524/Goku-Black-Bot-MD-3.0",
 "author": {
-"name": "Jostin.Oғᴄ" },
+"name": "Ivan" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Jostin207/GokuBot-MD.git" },
+"url": "git+https://github.com/elias1524/Goku-Black-Bot-MD-3.0.git" },
 
 "bugs": {
-"url": "https://github.com/Jostin207/JostinBot-MD/issues" },
+"url": "https://github.com/elias1524/Goku-Black-Bot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
