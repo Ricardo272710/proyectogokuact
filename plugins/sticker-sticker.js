@@ -13,7 +13,7 @@ if (/webp|image|video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`☁️ *¡El video no puede durar mas de 8 segundos!*`)
 let img = await q.download?.()
 
-if (!img) return conn.reply(m.chat, `『✦』𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝙖 𝙪𝙣 𝙫𝙞𝙙𝙚𝙤, 𝙜𝙞𝙛 𝙤 𝙞𝙢𝙜 𝙥𝙖𝙧𝙖 𝙘𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙧𝙡𝙤 𝙚𝙣 𝙨𝙩𝙞𝙘𝙠𝙚𝙧.`, m, rcanal)
+if (!img) return conn.reply(m.chat, `『✦』_*𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝙖 𝙪𝙣 𝙫𝙞𝙙𝙚𝙤, 𝙜𝙞𝙛 𝙤 𝙞𝙢𝙜 𝙥𝙖𝙧𝙖 𝙘𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙧𝙡𝙤 𝙚𝙣 𝙨𝙩𝙞𝙘𝙠𝙚𝙧*_`, m, rcanal)
 
 let out
 try {
@@ -40,7 +40,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: `Goku Black Bot - MD 💖`, mediaType: 2, sourceUrl: redes, thumbnail: icons}}}, { quoted: m })
 
-else return conn.reply(m.chat, '⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*', m, rcanal)
+else return conn.reply(m.chat, '『✦』_*𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝙖 𝙪𝙣 𝙫𝙞𝙙𝙚𝙤, 𝙜𝙞𝙛 𝙤 𝙞𝙢𝙜 𝙥𝙖𝙧𝙖 𝙘𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙧𝙡𝙤 𝙚𝙣 𝙨𝙩𝙞𝙘𝙠𝙚𝙧*_', m, rcanal)
 
 
 }}
