@@ -26,7 +26,7 @@
 "url": "git+https://github.com/elias1524/Goku-Black-Bot-MD-3.0.git" },
 
 "bugs": {
-"url": "https://github.com/Jostin207/JostinBot-MD" },
+"url": "https://github.com/elias1524/Goku-Black-Bot-MD-3.0" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
